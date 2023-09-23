@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchMVC.Domain", "CleanArchMVC.Domain\CleanArchMVC.Domain.csproj", "{E16F55CA-8256-4B55-A6B9-7BAED36CD82A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchMVC.Application", "CleanArchMVC.Application\CleanArchMVC.Application.csproj", "{8D72889A-E48A-43A2-998C-C93699E48763}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchMVC.Infra.Data", "CleanArchMVC.Infra.Data\CleanArchMVC.Infra.Data.csproj", "{8CE65A31-5F51-49E6-AE67-4EC7FE817E4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchMVC.Infra.Ioc", "CleanArchMVC.Infra.Ioc\CleanArchMVC.Infra.Ioc.csproj", "{B0648871-B3D4-4C2D-B8BD-9FEF64F0ED0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchMVC.API", "CleanArchMVC.API\CleanArchMVC.API.csproj", "{F9EF43CE-8EDF-4792-97C3-E98790D3CACD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E16F55CA-8256-4B55-A6B9-7BAED36CD82A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E16F55CA-8256-4B55-A6B9-7BAED36CD82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E16F55CA-8256-4B55-A6B9-7BAED36CD82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E16F55CA-8256-4B55-A6B9-7BAED36CD82A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D72889A-E48A-43A2-998C-C93699E48763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D72889A-E48A-43A2-998C-C93699E48763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D72889A-E48A-43A2-998C-C93699E48763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D72889A-E48A-43A2-998C-C93699E48763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE65A31-5F51-49E6-AE67-4EC7FE817E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE65A31-5F51-49E6-AE67-4EC7FE817E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE65A31-5F51-49E6-AE67-4EC7FE817E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE65A31-5F51-49E6-AE67-4EC7FE817E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0648871-B3D4-4C2D-B8BD-9FEF64F0ED0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0648871-B3D4-4C2D-B8BD-9FEF64F0ED0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0648871-B3D4-4C2D-B8BD-9FEF64F0ED0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0648871-B3D4-4C2D-B8BD-9FEF64F0ED0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D3903A-0C44-42A7-9ED8-9EBCF24F680F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D3903A-0C44-42A7-9ED8-9EBCF24F680F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D3903A-0C44-42A7-9ED8-9EBCF24F680F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D3903A-0C44-42A7-9ED8-9EBCF24F680F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2D62EDD-1E3C-424A-8843-EE817ABB03E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D62EDD-1E3C-424A-8843-EE817ABB03E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D62EDD-1E3C-424A-8843-EE817ABB03E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D62EDD-1E3C-424A-8843-EE817ABB03E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9EF43CE-8EDF-4792-97C3-E98790D3CACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9EF43CE-8EDF-4792-97C3-E98790D3CACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9EF43CE-8EDF-4792-97C3-E98790D3CACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9EF43CE-8EDF-4792-97C3-E98790D3CACD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

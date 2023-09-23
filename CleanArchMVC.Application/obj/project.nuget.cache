@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "WtdVE31wloE5cUvkXWzZmIuVHON8mQ80u1QJkN7w4rUQU3/TUK+VHLQjRqEd9uzoz/4K/C4trZ02X+iM1zbDBA==",
+  "success": true,
+  "projectFilePath": "/home/danilo/Documentos/NetCore/Teste entrevista/CleanArchMVC-BackOffice/CleanArchMVC.Application/CleanArchMVC.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/danilo/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/danilo/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
+    "/home/danilo/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/home/danilo/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
