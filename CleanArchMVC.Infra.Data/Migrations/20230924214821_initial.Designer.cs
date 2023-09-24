@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CleanArchMVC.Infra.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230921221427_initial")]
+    [Migration("20230924214821_initial")]
     partial class initial
     {
         /// <inheritdoc />
@@ -26,6 +26,11 @@ namespace CleanArchMVC.Infra.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT")
+                        .HasDefaultValue(new DateTime(2023, 9, 24, 18, 48, 21, 256, DateTimeKind.Local).AddTicks(6087));
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -34,7 +39,15 @@ namespace CleanArchMVC.Infra.Data.Migrations
                     b.Property<int>("PeopleId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<DateTime?>("Updated")
+                        .ValueGeneratedOnUpdate()
+                        .HasColumnType("TEXT")
+                        .HasDefaultValue(new DateTime(2023, 9, 24, 18, 48, 21, 256, DateTimeKind.Local).AddTicks(6537));
+
                     b.HasKey("Id");
+
+                    b.HasIndex("Name")
+                        .IsUnique();
 
                     b.HasIndex("PeopleId");
 
@@ -51,6 +64,11 @@ namespace CleanArchMVC.Infra.Data.Migrations
                         .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("Created")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT")
+                        .HasDefaultValue(new DateTime(2023, 9, 24, 18, 48, 21, 256, DateTimeKind.Local).AddTicks(9157));
 
                     b.Property<string>("Document")
                         .IsRequired()
@@ -70,7 +88,18 @@ namespace CleanArchMVC.Infra.Data.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("TEXT");
 
+                    b.Property<int>("ProfileType")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime?>("Updated")
+                        .ValueGeneratedOnUpdate()
+                        .HasColumnType("TEXT")
+                        .HasDefaultValue(new DateTime(2023, 9, 24, 18, 48, 21, 256, DateTimeKind.Local).AddTicks(9457));
+
                     b.HasKey("Id");
+
+                    b.HasIndex("Document")
+                        .IsUnique();
 
                     b.ToTable("Peoples");
 
@@ -79,10 +108,12 @@ namespace CleanArchMVC.Infra.Data.Migrations
                         {
                             Id = 1,
                             Address = "Rua Diamante",
+                            Created = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Document = "1234567890",
                             KindPerson = 1,
                             Name = "Danilo Serpa Martins",
-                            Nickname = "Danilo"
+                            Nickname = "Danilo",
+                            ProfileType = 3
                         });
                 });
 
@@ -281,7 +312,7 @@ namespace CleanArchMVC.Infra.Data.Migrations
             modelBuilder.Entity("CleanArchMVC.Domain.Entities.Department", b =>
                 {
                     b.HasOne("CleanArchMVC.Domain.Entities.People", "People")
-                        .WithMany("Departments")
+                        .WithMany()
                         .HasForeignKey("PeopleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -338,11 +369,6 @@ namespace CleanArchMVC.Infra.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("CleanArchMVC.Domain.Entities.People", b =>
-                {
-                    b.Navigation("Departments");
                 });
 #pragma warning restore 612, 618
         }

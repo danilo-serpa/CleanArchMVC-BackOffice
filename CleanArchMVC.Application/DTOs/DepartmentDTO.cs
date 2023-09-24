@@ -11,8 +11,12 @@ namespace CleanArchMVC.Application.DTOs
         [Required(ErrorMessage = "O Nome é obrigatório")]
         public string Name { get; set; }
 
+        [Required(ErrorMessage = "O Responsável é obrigatório")]
         public int PeopleId { get; set; }
 
         public People? People { get; set; }
+
+        public DateTime Created { get; set; }
+        public DateTime Updated { get; set; }
     }
 }

@@ -16,12 +16,12 @@ namespace CleanArchMVC.Infra.Data.Repositories
 
         public async Task<Department> GetById(int? id)
         {
-            return await _context.Departments.SingleOrDefaultAsync(d => d.Id == id);
+            return await _context.Departments.Include(d => d.People).SingleOrDefaultAsync(d => d.Id == id);
         }
 
         public async Task<IEnumerable<Department>> GetDepartments()
         {
-            return await _context.Departments.ToListAsync();
+            return await _context.Departments.Include(d => d.People).ToListAsync();
         }
 
         public async Task<Department> Create(Department department)

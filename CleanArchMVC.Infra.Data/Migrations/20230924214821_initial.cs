@@ -60,7 +60,10 @@ namespace CleanArchMVC.Infra.Data.Migrations
                     Document = table.Column<string>(type: "TEXT", maxLength: 14, nullable: false),
                     Name = table.Column<string>(type: "TEXT", maxLength: 100, nullable: false),
                     Nickname = table.Column<string>(type: "TEXT", maxLength: 100, nullable: false),
-                    Address = table.Column<string>(type: "TEXT", maxLength: 500, nullable: false)
+                    Address = table.Column<string>(type: "TEXT", maxLength: 500, nullable: false),
+                    ProfileType = table.Column<int>(type: "INTEGER", nullable: false),
+                    Created = table.Column<DateTime>(type: "TEXT", nullable: false, defaultValue: new DateTime(2023, 9, 24, 18, 48, 21, 256, DateTimeKind.Local).AddTicks(9157)),
+                    Updated = table.Column<DateTime>(type: "TEXT", nullable: true, defaultValue: new DateTime(2023, 9, 24, 18, 48, 21, 256, DateTimeKind.Local).AddTicks(9457))
                 },
                 constraints: table =>
                 {
@@ -180,7 +183,9 @@ namespace CleanArchMVC.Infra.Data.Migrations
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     Name = table.Column<string>(type: "TEXT", maxLength: 100, nullable: false),
-                    PeopleId = table.Column<int>(type: "INTEGER", nullable: false)
+                    PeopleId = table.Column<int>(type: "INTEGER", nullable: false),
+                    Created = table.Column<DateTime>(type: "TEXT", nullable: false, defaultValue: new DateTime(2023, 9, 24, 18, 48, 21, 256, DateTimeKind.Local).AddTicks(6087)),
+                    Updated = table.Column<DateTime>(type: "TEXT", nullable: true, defaultValue: new DateTime(2023, 9, 24, 18, 48, 21, 256, DateTimeKind.Local).AddTicks(6537))
                 },
                 constraints: table =>
                 {
@@ -195,8 +200,8 @@ namespace CleanArchMVC.Infra.Data.Migrations
 
             migrationBuilder.InsertData(
                 table: "Peoples",
-                columns: new[] { "Id", "Address", "Document", "KindPerson", "Name", "Nickname" },
-                values: new object[] { 1, "Rua Diamante", "1234567890", 1, "Danilo Serpa Martins", "Danilo" });
+                columns: new[] { "Id", "Address", "Document", "KindPerson", "Name", "Nickname", "ProfileType" },
+                values: new object[] { 1, "Rua Diamante", "1234567890", 1, "Danilo Serpa Martins", "Danilo", 3 });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
@@ -236,9 +241,21 @@ namespace CleanArchMVC.Infra.Data.Migrations
                 unique: true);
 
             migrationBuilder.CreateIndex(
+                name: "IX_Departments_Name",
+                table: "Departments",
+                column: "Name",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Departments_PeopleId",
                 table: "Departments",
                 column: "PeopleId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Peoples_Document",
+                table: "Peoples",
+                column: "Document",
+                unique: true);
         }
 
         /// <inheritdoc />

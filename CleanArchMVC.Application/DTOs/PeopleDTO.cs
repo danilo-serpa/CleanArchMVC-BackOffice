@@ -20,5 +20,11 @@ namespace CleanArchMVC.Application.DTOs
 
         [Required(ErrorMessage = "O Endereço é obrigatório")]
         public string Address { get; set; }
+
+        [Required(ErrorMessage = "O Perfil é obrigatório")]
+        public ProfileType ProfileType { get; set; }
+
+        public DateTime Created { get; set; }
+        public DateTime Updated { get; set; }
     }
 }
