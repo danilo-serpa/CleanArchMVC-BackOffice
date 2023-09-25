@@ -33,7 +33,7 @@ namespace CleanArchMVC.Domain.Entities
             DomainExceptionValidation.When(string.IsNullOrEmpty(document), "O campo Documento é obrigatório");
             DomainExceptionValidation.When(string.IsNullOrEmpty(name), "O campo Nome é obrigatório");
             DomainExceptionValidation.When(string.IsNullOrEmpty(address), "O campo Endereço é obrigatório");
-            DomainExceptionValidation.When(profileType <= 0, "O campo Perfil é obrigatório");
+            DomainExceptionValidation.When(profileType <= 0, "O campo Qualificação é obrigatório");
 
             KindPerson = kindPerson;
             Document = document;

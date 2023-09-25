@@ -24,6 +24,11 @@ namespace CleanArchMVC.Infra.Data.Repositories
             return await _context.Peoples.ToListAsync();
         }
 
+        public async Task<IEnumerable<People>> GetCollaborator()
+        {
+            return await _context.Peoples.Where(p => p.ProfileType == Domain.Enum.ProfileType.Collaborator).ToListAsync();
+        }
+
         public async Task<People> Create(People people)
         {
             _context.Add(people);

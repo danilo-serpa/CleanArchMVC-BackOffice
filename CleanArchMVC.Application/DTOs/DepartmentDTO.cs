@@ -6,7 +6,7 @@ namespace CleanArchMVC.Application.DTOs
 {
     public class DepartmentDTO
     {
-        public int Id { get; set; }
+        public int? Id { get; set; }
 
         [Required(ErrorMessage = "O Nome é obrigatório")]
         public string Name { get; set; }

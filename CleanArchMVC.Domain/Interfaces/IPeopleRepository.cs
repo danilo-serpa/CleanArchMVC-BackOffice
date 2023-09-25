@@ -5,6 +5,7 @@ namespace CleanArchMVC.Domain.Interfaces
     public interface IPeopleRepository
     {
         Task<IEnumerable<People>> GetPeoples();
+        Task<IEnumerable<People>> GetCollaborator();
         Task<People> GetById(int? id);
 
         Task<People> Create(People people);

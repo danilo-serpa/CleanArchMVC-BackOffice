@@ -28,6 +28,19 @@ namespace CleanArchMVC.API.Controllers
             return Ok(peoples);
         }
 
+        [HttpGet("GetCollaborator")]
+        public async Task<ActionResult<IEnumerable<PeopleDTO>>> GetCollaborator()
+        {
+            var peoples = await _peopleService.GetCollaborator();
+
+            if (peoples == null)
+            {
+                return NotFound("Colaborador não encontrada!");
+            }
+
+            return Ok(peoples);
+        }
+
         [HttpGet("{id:int}", Name = "GetPeople")]
         public async Task<ActionResult<PeopleDTO>> GetById(int id)
         {

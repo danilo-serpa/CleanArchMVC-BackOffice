@@ -5,7 +5,7 @@ namespace CleanArchMVC.Application.DTOs
 {
     public class PeopleDTO
     {
-        public int Id { get; set; }
+        public int? Id { get; set; }
 
         [Required(ErrorMessage = "O Tipo de Pessoa é obrigatório")]
         public KindPerson KindPerson { get; set; }
@@ -21,7 +21,7 @@ namespace CleanArchMVC.Application.DTOs
         [Required(ErrorMessage = "O Endereço é obrigatório")]
         public string Address { get; set; }
 
-        [Required(ErrorMessage = "O Perfil é obrigatório")]
+        [Required(ErrorMessage = "A Qualificação é obrigatória")]
         public ProfileType ProfileType { get; set; }
 
         public DateTime Created { get; set; }

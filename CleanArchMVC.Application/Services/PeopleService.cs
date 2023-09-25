@@ -23,6 +23,12 @@ namespace CleanArchMVC.Application.Services
             return _mapper.Map<IEnumerable<PeopleDTO>>(peopleEntities);
         }
 
+        public async Task<IEnumerable<PeopleDTO>> GetCollaborator()
+        {
+            var peopleEntities = await _peopleRepository.GetCollaborator();
+            return _mapper.Map<IEnumerable<PeopleDTO>>(peopleEntities);
+        }
+
         public async Task<PeopleDTO> GetById(int? id)
         {
             var peopleEntity = await _peopleRepository.GetById(id);
