@@ -1,3 +1,4 @@
+using CleanArchMVC.Domain.Account;
 using CleanArchMVC.Infra.Ioc;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -30,8 +31,21 @@ app.UseCors(x => x
                 .SetIsOriginAllowed(origin => true)
                 .AllowCredentials());
 
+SeedUserRoles(app);
+
 app.UseAuthorization();
 
 app.MapControllers();
 
 app.Run();
+
+void SeedUserRoles(IApplicationBuilder app)
+{
+    using (var serviceScope = app.ApplicationServices.CreateScope())
+    {
+        var seed = serviceScope.ServiceProvider
+                               .GetService<ISeedUserRoleInitial>();
+        seed.SeedUsers();
+        seed.SeedRoles();
+    }
+}
