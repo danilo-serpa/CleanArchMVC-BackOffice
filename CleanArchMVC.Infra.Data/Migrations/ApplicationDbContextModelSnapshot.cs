@@ -26,7 +26,7 @@ namespace CleanArchMVC.Infra.Data.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT")
-                        .HasDefaultValue(new DateTime(2023, 9, 24, 18, 48, 21, 256, DateTimeKind.Local).AddTicks(6087));
+                        .HasDefaultValue(new DateTime(2023, 9, 25, 16, 36, 22, 806, DateTimeKind.Local).AddTicks(3301));
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -39,7 +39,7 @@ namespace CleanArchMVC.Infra.Data.Migrations
                     b.Property<DateTime?>("Updated")
                         .ValueGeneratedOnUpdate()
                         .HasColumnType("TEXT")
-                        .HasDefaultValue(new DateTime(2023, 9, 24, 18, 48, 21, 256, DateTimeKind.Local).AddTicks(6537));
+                        .HasDefaultValue(new DateTime(2023, 9, 25, 16, 36, 22, 806, DateTimeKind.Local).AddTicks(3686));
 
                     b.HasKey("Id");
 
@@ -65,7 +65,7 @@ namespace CleanArchMVC.Infra.Data.Migrations
                     b.Property<DateTime>("Created")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT")
-                        .HasDefaultValue(new DateTime(2023, 9, 24, 18, 48, 21, 256, DateTimeKind.Local).AddTicks(9157));
+                        .HasDefaultValue(new DateTime(2023, 9, 25, 16, 36, 22, 806, DateTimeKind.Local).AddTicks(6452));
 
                     b.Property<string>("Document")
                         .IsRequired()
@@ -91,7 +91,7 @@ namespace CleanArchMVC.Infra.Data.Migrations
                     b.Property<DateTime?>("Updated")
                         .ValueGeneratedOnUpdate()
                         .HasColumnType("TEXT")
-                        .HasDefaultValue(new DateTime(2023, 9, 24, 18, 48, 21, 256, DateTimeKind.Local).AddTicks(9457));
+                        .HasDefaultValue(new DateTime(2023, 9, 25, 16, 36, 22, 806, DateTimeKind.Local).AddTicks(6738));
 
                     b.HasKey("Id");
 

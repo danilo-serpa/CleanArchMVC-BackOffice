@@ -31,8 +31,10 @@ app.UseCors(x => x
                 .SetIsOriginAllowed(origin => true)
                 .AllowCredentials());
 
+
 SeedUserRoles(app);
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
@@ -45,7 +47,7 @@ void SeedUserRoles(IApplicationBuilder app)
     {
         var seed = serviceScope.ServiceProvider
                                .GetService<ISeedUserRoleInitial>();
-        seed.SeedUsers();
-        seed.SeedRoles();
+        seed?.SeedUsers();
+        seed?.SeedRoles();
     }
 }
