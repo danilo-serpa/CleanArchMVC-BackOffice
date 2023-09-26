@@ -1,0 +1,6 @@
+*.db
+*.db-slim
+*.db-wal
+*.dll
+*.pdb
+Migrations
