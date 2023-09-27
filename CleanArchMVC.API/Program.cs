@@ -1,5 +1,6 @@
 using CleanArchMVC.Domain.Account;
 using CleanArchMVC.Infra.Ioc;
+using Microsoft.AspNetCore.Mvc.Formatters;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +10,9 @@ builder.Services.AddInfrastructureAPI(builder.Configuration);
 builder.Services.AddInfrastructureJwt(builder.Configuration);
 builder.Services.AddInfrastructureSwagger();
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(
+    options => options.OutputFormatters.RemoveType<StringOutputFormatter>()
+);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
