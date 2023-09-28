@@ -24,7 +24,7 @@ namespace CleanArchMVC.API.Controllers
         [HttpPost("CreateUser")]
         public async Task<ActionResult> CreateUser([FromBody] RegisterModel userInfo)
         {
-            var result = await _authenticate.RegisterUser(userInfo.Email, userInfo.Password);
+            var result = await _authenticate.RegisterUser(userInfo.Email, userInfo.Password, userInfo.UserName);
 
             if (result)
             {
@@ -32,7 +32,7 @@ namespace CleanArchMVC.API.Controllers
             }
             else
             {
-                ModelState.AddModelError(string.Empty, "Não foi possível criar o usuário.");
+                ModelState.AddModelError("error", "Não foi possível criar o usuário.");
                 return BadRequest(ModelState);
             }
         }
@@ -48,7 +48,7 @@ namespace CleanArchMVC.API.Controllers
             }
             else
             {
-                ModelState.AddModelError(string.Empty, "Login Inválido");
+                ModelState.AddModelError("error", "Login Inválido");
                 return BadRequest(ModelState);
             }
         }

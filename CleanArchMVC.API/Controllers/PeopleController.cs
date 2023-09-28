@@ -46,7 +46,7 @@ namespace CleanArchMVC.API.Controllers
         {
             var people = await _peopleService.GetById(id);
 
-            if (people == null)
+            if (people != null)
             {
                 return NotFound("Pessoa não encontrada!");
             }

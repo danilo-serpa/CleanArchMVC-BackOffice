@@ -4,11 +4,15 @@ namespace CleanArchMVC.API.Models
 {
     public class RegisterModel
     {
-        [Required]
+        [Required(ErrorMessage = "O Usuàrio é obrigatório")]
+        [Display(Name = "Usuário")]
+        public string UserName { get; set; }
+
+        [Required(ErrorMessage = "O Email é obrigatório")]
         [EmailAddress]
         public string Email { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "A Senha é obrigatória")]
         [DataType(DataType.Password)]
         [Display(Name = "Senha")]
         public string Password { get; set; }

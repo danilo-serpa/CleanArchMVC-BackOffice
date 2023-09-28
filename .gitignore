@@ -5,3 +5,4 @@
 *.dll
 *.pdb
 Migrations
+bin
