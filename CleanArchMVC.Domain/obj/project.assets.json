@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/danilo/Documentos/NetCore/Teste entrevista/CleanArchMVC-BackOffice/CleanArchMVC.Domain/CleanArchMVC.Domain.csproj",
+      "projectUniqueName": "/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Domain/CleanArchMVC.Domain.csproj",
       "projectName": "CleanArchMVC.Domain",
-      "projectPath": "/home/danilo/Documentos/NetCore/Teste entrevista/CleanArchMVC-BackOffice/CleanArchMVC.Domain/CleanArchMVC.Domain.csproj",
+      "projectPath": "/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Domain/CleanArchMVC.Domain.csproj",
       "packagesPath": "/home/danilo/.nuget/packages/",
-      "outputPath": "/home/danilo/Documentos/NetCore/Teste entrevista/CleanArchMVC-BackOffice/CleanArchMVC.Domain/obj/",
+      "outputPath": "/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/danilo/.nuget/NuGet/NuGet.Config"

@@ -4,5 +4,6 @@
 *.db-shm
 *.dll
 *.pdb
-Migrations
 bin
+obj
+Migrations

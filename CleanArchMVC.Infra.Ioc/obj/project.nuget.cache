@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2bEhajYaD+JXQMqN08mddqKD5mJbc8Mnxid8ItrSvekOeWin+5rLbUXJTaqiFjt4/IIeSw2jIxB/XR93fgOG3w==",
+  "dgSpecHash": "RF5bEOfjtoUviHo0wgl7Oh66XwIZ+7nltBRrq5DFINKMokmii7nzIb29P/6O1aLp6ikmyqgx19Pf6+o0ozwl0w==",
   "success": true,
-  "projectFilePath": "/home/danilo/Documentos/NetCore/Teste entrevista/CleanArchMVC-BackOffice/CleanArchMVC.Infra.Ioc/CleanArchMVC.Infra.Ioc.csproj",
+  "projectFilePath": "/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Infra.Ioc/CleanArchMVC.Infra.Ioc.csproj",
   "expectedPackageFiles": [
     "/home/danilo/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/danilo/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

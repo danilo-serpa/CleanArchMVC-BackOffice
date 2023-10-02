@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NSeozjc05D//49b4FDBMLWl0jgorf6NuYEvegkXB28xCzOQmIxFMj4enoZo5Lt8ZcmVoP2STCFNqs2TZNUiRfA==",
+  "dgSpecHash": "Pemnj4NtLTnUTA9MGDRjqrv/Irc2rS9iqG1ctq9hQSDhil3Ich3HhOW22jGDfaLwxdMW3RbRLsUnzdoeDaObjA==",
   "success": true,
-  "projectFilePath": "/home/danilo/Documentos/NetCore/Teste entrevista/CleanArchMVC-BackOffice/CleanArchMVC.Infra.Data/CleanArchMVC.Infra.Data.csproj",
+  "projectFilePath": "/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Infra.Data/CleanArchMVC.Infra.Data.csproj",
   "expectedPackageFiles": [
     "/home/danilo/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/danilo/.nuget/packages/microsoft.aspnetcore.authentication/2.2.0/microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

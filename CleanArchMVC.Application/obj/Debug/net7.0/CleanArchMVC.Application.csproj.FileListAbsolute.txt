@@ -28,3 +28,18 @@
 /home/danilo/Documentos/NetCore/Teste entrevista/CleanArchMVC-BackOffice/CleanArchMVC.Application/obj/Debug/net7.0/refint/CleanArchMVC.Application.dll
 /home/danilo/Documentos/NetCore/Teste entrevista/CleanArchMVC-BackOffice/CleanArchMVC.Application/obj/Debug/net7.0/CleanArchMVC.Application.pdb
 /home/danilo/Documentos/NetCore/Teste entrevista/CleanArchMVC-BackOffice/CleanArchMVC.Application/obj/Debug/net7.0/ref/CleanArchMVC.Application.dll
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Application/bin/Debug/net7.0/CleanArchMVC.Application.deps.json
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Application/bin/Debug/net7.0/CleanArchMVC.Application.dll
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Application/bin/Debug/net7.0/CleanArchMVC.Application.pdb
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Application/bin/Debug/net7.0/CleanArchMVC.Domain.dll
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Application/bin/Debug/net7.0/CleanArchMVC.Domain.pdb
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Application/obj/Debug/net7.0/CleanArchMVC.Application.csproj.AssemblyReference.cache
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Application/obj/Debug/net7.0/CleanArchMVC.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Application/obj/Debug/net7.0/CleanArchMVC.Application.AssemblyInfoInputs.cache
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Application/obj/Debug/net7.0/CleanArchMVC.Application.AssemblyInfo.cs
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Application/obj/Debug/net7.0/CleanArchMVC.Application.csproj.CoreCompileInputs.cache
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Application/obj/Debug/net7.0/CleanArchMVC.Application.csproj.CopyComplete
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Application/obj/Debug/net7.0/CleanArchMVC.Application.dll
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Application/obj/Debug/net7.0/refint/CleanArchMVC.Application.dll
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Application/obj/Debug/net7.0/CleanArchMVC.Application.pdb
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Application/obj/Debug/net7.0/ref/CleanArchMVC.Application.dll

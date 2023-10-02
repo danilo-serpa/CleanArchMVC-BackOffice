@@ -8120,11 +8120,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/danilo/Documentos/NetCore/Teste entrevista/CleanArchMVC-BackOffice/CleanArchMVC.API/CleanArchMVC.API.csproj",
+      "projectUniqueName": "/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.API/CleanArchMVC.API.csproj",
       "projectName": "CleanArchMVC.API",
-      "projectPath": "/home/danilo/Documentos/NetCore/Teste entrevista/CleanArchMVC-BackOffice/CleanArchMVC.API/CleanArchMVC.API.csproj",
+      "projectPath": "/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.API/CleanArchMVC.API.csproj",
       "packagesPath": "/home/danilo/.nuget/packages/",
-      "outputPath": "/home/danilo/Documentos/NetCore/Teste entrevista/CleanArchMVC-BackOffice/CleanArchMVC.API/obj/",
+      "outputPath": "/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/danilo/.nuget/NuGet/NuGet.Config"
@@ -8140,8 +8140,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/danilo/Documentos/NetCore/Teste entrevista/CleanArchMVC-BackOffice/CleanArchMVC.Infra.Ioc/CleanArchMVC.Infra.Ioc.csproj": {
-              "projectPath": "/home/danilo/Documentos/NetCore/Teste entrevista/CleanArchMVC-BackOffice/CleanArchMVC.Infra.Ioc/CleanArchMVC.Infra.Ioc.csproj"
+            "/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Infra.Ioc/CleanArchMVC.Infra.Ioc.csproj": {
+              "projectPath": "/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Infra.Ioc/CleanArchMVC.Infra.Ioc.csproj"
             }
           }
         }

@@ -22,3 +22,15 @@
 /home/danilo/Documentos/NetCore/Teste entrevista/CleanArchMVC-BackOffice/CleanArchMVC.Domain/obj/Debug/net7.0/refint/CleanArchMVC.Domain.dll
 /home/danilo/Documentos/NetCore/Teste entrevista/CleanArchMVC-BackOffice/CleanArchMVC.Domain/obj/Debug/net7.0/CleanArchMVC.Domain.pdb
 /home/danilo/Documentos/NetCore/Teste entrevista/CleanArchMVC-BackOffice/CleanArchMVC.Domain/obj/Debug/net7.0/ref/CleanArchMVC.Domain.dll
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Domain/bin/Debug/net7.0/CleanArchMVC.Domain.deps.json
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Domain/bin/Debug/net7.0/CleanArchMVC.Domain.dll
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Domain/bin/Debug/net7.0/CleanArchMVC.Domain.pdb
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Domain/obj/Debug/net7.0/CleanArchMVC.Domain.csproj.AssemblyReference.cache
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Domain/obj/Debug/net7.0/CleanArchMVC.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Domain/obj/Debug/net7.0/CleanArchMVC.Domain.AssemblyInfoInputs.cache
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Domain/obj/Debug/net7.0/CleanArchMVC.Domain.AssemblyInfo.cs
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Domain/obj/Debug/net7.0/CleanArchMVC.Domain.csproj.CoreCompileInputs.cache
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Domain/obj/Debug/net7.0/CleanArchMVC.Domain.dll
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Domain/obj/Debug/net7.0/refint/CleanArchMVC.Domain.dll
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Domain/obj/Debug/net7.0/CleanArchMVC.Domain.pdb
+/home/danilo/Documentos/NetCore/CleanArchMVC-BackOffice/CleanArchMVC.Domain/obj/Debug/net7.0/ref/CleanArchMVC.Domain.dll

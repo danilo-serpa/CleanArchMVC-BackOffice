@@ -53,6 +53,22 @@ namespace CleanArchMVC.API.Controllers
             }
         }
 
+        // [HttpGet("GetUser")]
+        // public async Task<ActionResult<UserToken>> GetUsers()
+        // {
+        //     var result = await _authenticate.;
+
+        //     if (result)
+        //     {
+        //         return GenerateToken(userInfo);
+        //     }
+        //     else
+        //     {
+        //         ModelState.AddModelError("error", "Login Inválido");
+        //         return BadRequest(ModelState);
+        //     }
+        // }
+
         private UserToken GenerateToken(LoginModel userInfo)
         {
             var claims = new []
