@@ -24,7 +24,7 @@ namespace CleanArchMVC.Infra.Data.Identity
         {
             var applicationUser = new ApplicationUser
             {
-                UserName = userName,
+                UserName = email,
                 Email = email
             };
 
